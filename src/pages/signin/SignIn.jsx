@@ -15,11 +15,11 @@ const SignIn = () => {
   return (
     <>
 
-      <div className="h-[610px]  flex">
+      <div className="md:h-[610px]  flex">
         {/* Left Side: Signup Form */}
-        <div className="flex items-center justify-center w-1/2 bg-base-100 p-10">
+        <div className="flex items-center justify-center lg:w-1/2 bg-base-100 lg:p-10 md:p-36 p-6">
           <div className="w-full max-w-md">
-            <h1 className="text-start text-2xl font-bold mb-4">Welcome Back!</h1>
+            <h1 className="text-start md:text-2xl text-xl font-bold mb-4">Welcome Back!</h1>
 
             <p className="text-start text-gray-500 mb-6">
               Enter your Credentials to access your account
@@ -52,8 +52,8 @@ const SignIn = () => {
 
             <div className="divider my-6">or</div>
 
-            <div className="flex justify-between">
-              <button className="btn btn-outline  text-black w-1/2 mr-2">
+            <div className="md:flex justify-between">
+              <button className="btn btn-outline  text-black md:w-1/2 w-full m-2">
                 <img
                   src="https://www.svgrepo.com/show/355037/google.svg"
                   alt="Google"
@@ -61,7 +61,7 @@ const SignIn = () => {
                 />
                 Sign in with Google
               </button>
-              <button className="btn btn-outline  text-black w-1/2 ml-2">
+              <button className="btn btn-outline  text-black md:w-1/2 w-full m-2">
                 <img
                   src="https://res.cloudinary.com/dqyusvzi9/image/upload/v1725685497/Vector_qdwvtj.png"
                   alt="Apple"
@@ -72,7 +72,7 @@ const SignIn = () => {
             </div>
 
             <p className="text-center font-semibold text-black mt-4">
-              Have an account? <Link to="/signup" className="text-[#0F3DDE]">Sign Up</Link>
+              Have an account? <Link to="/" className="text-[#0F3DDE]">Sign Up</Link>
             </p>
           </div>
         </div>

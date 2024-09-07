@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm text-[#202020] text-lg font-medium dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm text-[#202020] text-lg font-normal dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {navItems}
                        
                         
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <Link><img src={logo} alt="" /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal text-[#202020] text-lg font-medium px-1">
+                <ul className="menu menu-horizontal text-[#202020] text-lg font-normal px-1">
                     {navItems}
                     
                 </ul>

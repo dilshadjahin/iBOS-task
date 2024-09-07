@@ -9,7 +9,7 @@ const Footer = () => {
    <img src={logo} alt="" />
     
   </aside>
-  <nav className="text-[#81859F] font-semibold text-base ">
+  <nav className="text-[#81859F] font-normal text-base ">
     <h6 className="text-white font-semibold text-lg">About US</h6>
    
     <a >Master Plan</a>
@@ -21,14 +21,14 @@ const Footer = () => {
   
     
   </nav>
-  <nav className="text-[#81859F] font-semibold text-base ">
+  <nav className="text-[#81859F] font-normal text-base ">
     <h6 className="text-white font-semibold text-lg">Explore EEVE</h6>
     <a className="link link-hover">Unlock my Robot Power</a>
     <a className="link link-hover">Starlight</a>
     <a className="link link-hover">Robot Platform</a>
     <a className="link link-hover">EEVE Roadmap</a>
   </nav>
-  <nav className="text-[#81859F] font-semibold text-base ">
+  <nav className="text-[#81859F] font-normal text-base ">
     <h6 className="text-white font-semibold text-lg">Community & Support</h6>
     <a className="link link-hover">Willow X Community</a>
     <a className="link link-hover">Developer & Maker Access</a>
@@ -74,7 +74,7 @@ const Footer = () => {
     </div>
  
 
-  <nav className="grid grid-flow-col gap-4  text-[#81859F] font-semibold text-base ">
+  <nav className="grid grid-flow-col gap-4  text-[#81859F] font-normal text-base ">
     <a className="link link-hover">March22 Recap</a>
     <a className="link link-hover">Privacy Policy</a>
     <a className="link link-hover">General Terms</a>
@@ -131,7 +131,7 @@ const Footer = () => {
       </g>
     </g>
   </svg>
-  <p className='text-[#81859F] font-semibold text-base '>United States (English)</p>
+  <p className='text-[#81859F] font-normal text-base '>United States (English)</p>
 </aside>
 
   </nav>

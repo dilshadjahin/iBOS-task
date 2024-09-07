@@ -12,12 +12,12 @@ const SignUp = () => {
         navigate("/signin");
     };
     return (
-        <div className="h-[610px]  flex">
+        <div className="md:h-[610px]  flex">
             {/* Left Side: Signup Form */}
-            <div className="flex items-center justify-center w-1/2 bg-base-100 p-10">
+            <div className="flex items-center justify-center lg:w-1/2 bg-base-100 lg:p-10 md:p-36 p-6">
                 <div className="w-full max-w-md">
-                    <h1 className="text-center text-2xl font-bold mb-4">Welcome To</h1>
-                    <h2 className="text-center text-3xl font-bold text-black mb-2">
+                    <h1 className="text-center lg:text-2xl text-lg font-bold mb-4">Welcome To</h1>
+                    <h2 className="text-center lg:text-3xl text-xl font-bold text-black mb-2">
                         Furni<span className="text-blue-500">Flex</span>
                     </h2>
                     <p className="text-center text-gray-500 mb-6">
@@ -65,8 +65,8 @@ const SignUp = () => {
 
                     <div className="divider my-6">or</div>
 
-                    <div className="flex justify-between">
-                        <button className="btn btn-outline  text-black w-1/2 mr-2">
+                    <div className="md:flex justify-between">
+                        <button className="btn btn-outline  text-black md:w-1/2 w-full m-2">
                             <img
                                 src="https://www.svgrepo.com/show/355037/google.svg"
                                 alt="Google"
@@ -74,7 +74,7 @@ const SignUp = () => {
                             />
                             Sign in with Google
                         </button>
-                        <button className="btn btn-outline  text-black w-1/2 ml-2">
+                        <button className="btn btn-outline  text-black md:w-1/2 w-full m-2">
                             <img
                                 src="https://res.cloudinary.com/dqyusvzi9/image/upload/v1725685497/Vector_qdwvtj.png"
                                 alt="Apple"

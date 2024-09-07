@@ -5,9 +5,7 @@ import { ProductContext } from '../auth/ProductContext';
 const ProductList = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 6;
-  const { products, addToCart } = useContext(ProductContext); 
-
-
+  const { products, addToCart } = useContext(ProductContext);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -20,11 +18,28 @@ const ProductList = () => {
     <div>
       <Row gutter={[16, 16]}>
         {currentProducts.map((product) => (
-          <Col key={product.id} span={8}>
+          <Col
+            key={product.id}
+            xs={24}
+            sm={12}
+            md={8}
+            lg={8}
+          >
             <Card
-              cover={<img alt={product.name} src={product.image} />}
+              cover={<img alt={product.name} src={product.image} style={{ height: '200px', objectFit: 'cover' }} />}
               actions={[
-                <Button key={product.id} onClick={() => addToCart(product)} type="primary">Add to cart</Button>,
+                <Button
+                  key={product.id}
+                  onClick={() => addToCart(product)}
+                  type="primary"
+                  style={{
+                    backgroundColor: 'black',  // Set background color to black
+                    color: 'white',            // Set text color to white
+                    border: 'none'             // Remove the default border (optional)
+                  }}
+                >
+                  Add to cart
+                </Button>,
               ]}
             >
               <h3>{product.name}</h3>
@@ -35,9 +50,7 @@ const ProductList = () => {
                 <span style={{ fontWeight: 'bold', color: 'red' }}>
                   €{product.price}
                 </span>{' '}
-                <span style={{ color: 'green' }}>
-                  {product.discount}% OFF
-                </span>
+                <span style={{ color: 'green' }}>{product.discount}% OFF</span>
               </p>
               <p>{product.description}</p>
             </Card>
