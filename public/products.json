@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Recliner Chair",
+    "price": 299.00,
+    "oldPrice": 500.00,
+    "discount": 30,
+    "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg",
+    "description": "A comfortable recliner chair with wooden legs and padded seating."
+  },
+  {
+    "id": 2,
+    "name": "Timber Ride Padded Chair",
+    "price": 600.00,
+    "oldPrice": 850.00,
+    "discount": 30,
+    "image": "https://images.pexels.com/photos/2082090/pexels-photo-2082090.jpeg",
+    "description": "High-back rocking chair with comfortable padding."
+  },
+  {
+    "id": 3,
+    "name": "Modern Leather Chair",
+    "price": 1200.00,
+    "oldPrice": 1500.00,
+    "discount": 20,
+    "image": "https://images.pexels.com/photos/2082090/pexels-photo-2082090.jpeg",
+    "description": "A modern leather chair with a luxurious feel."
+  },
+  {
+    "id": 4,
+    "name": "Outdoor Lounge Chair",
+    "price": 500.00,
+    "oldPrice": 700.00,
+    "discount": 29,
+    "image": "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg",
+    "description": "Perfect for relaxing outdoors, durable and comfortable."
+  },
+  {
+    "id": 5,
+    "name": "Swivel Office Chair",
+    "price": 180.00,
+    "oldPrice": 250.00,
+    "discount": 28,
+    "image": "https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg",
+    "description": "Ergonomic swivel office chair for comfort during work."
+  },
+  {
+    "id": 6,
+    "name": "Classic Wooden Rocking Chair",
+    "price": 220.00,
+    "oldPrice": 300.00,
+    "discount": 27,
+    "image": "https://images.pexels.com/photos/2766716/pexels-photo-2766716.jpeg",
+    "description": "A classic wooden rocking chair with a timeless design."
+  },
+  {
+    "id": 7,
+    "name": "Executive Office Chair",
+    "price": 450.00,
+    "oldPrice": 600.00,
+    "discount": 25,
+    "image": "https://images.pexels.com/photos/4975073/pexels-photo-4975073.jpeg",
+    "description": "Executive leather office chair with adjustable settings."
+  },
+  {
+    "id": 8,
+    "name": "Comfy Accent Chair",
+    "price": 350.00,
+    "oldPrice": 450.00,
+    "discount": 22,
+    "image": "https://images.pexels.com/photos/2766717/pexels-photo-2766717.jpeg",
+    "description": "A comfy accent chair perfect for any living room."
+  },
+  {
+    "id": 9,
+    "name": "Minimalist Lounge Chair",
+    "price": 200.00,
+    "oldPrice": 300.00,
+    "discount": 33,
+    "image": "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg",
+    "description": "Minimalist lounge chair for modern interiors."
+  },
+  {
+    "id": 10,
+    "name": "Contemporary Fabric Chair",
+    "price": 500.00,
+    "oldPrice": 700.00,
+    "discount": 29,
+    "image": "https://images.pexels.com/photos/4061973/pexels-photo-4061973.jpeg",
+    "description": "A contemporary fabric chair with sleek lines and soft cushions."
+  }
+]
